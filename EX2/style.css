@@ -1,0 +1,16 @@
+.div-background div {
+  background-color: red;
+  width: 50px;
+  height: 25px;
+  float: inline-start;
+  margin-left: 3px;
+  border: 1px solid black;
+  text-align: center;
+  color: white;
+}
+hr {
+  margin-top: 60px;
+}
+.div-background div:nth-child(even) {
+  display: none;
+}

@@ -1,0 +1,24 @@
+.div-file-box-1 :nth-child(1n + 1),
+.div-file-box-3 :nth-child(1n + 1),
+.div-file-box-5 :nth-child(1n + 1),
+.div-file-box-7 :nth-child(1n + 1),
+.div-file-box-9 :nth-child(1n + 1) {
+  background-color: green;
+}
+
+.div-background-1 div div,
+.div-background-2 div div,
+.div-background-3 div div {
+  background-color: blue;
+  margin-top: 10px;
+  width: 25px;
+  height: 30px;
+  padding-left: 5px;
+  font-size: 7px;
+}
+
+.div-background-1 div,
+.div-background-2 div,
+.div-background-3 div {
+  display: inline-block;
+}
